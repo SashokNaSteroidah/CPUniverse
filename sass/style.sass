@@ -1,2 +1,284 @@
-*
-  margin: 10px
+$color_main: #101010
+
+*, *:before, *:after
+  font-family: "Roboto", "Arial", sans-serif
+  box-sizing: border-box
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video
+  margin: 0
+  padding: 0
+  border: 0
+  font: inherit
+  vertical-align: baseline
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  text-size-adjust: none
+
+footer, header, nav, section, main
+  display: block
+
+body
+  line-height: 1
+
+ol, ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+a
+  text-decoration: none
+  font-family: "Roboto", "Arial", sans-serif
+  color: white
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+input
+  -webkit-appearance: none
+  border-radius: 0
+
+body
+  background: $color_main
+
+header
+  display: flex
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  height: 100px
+  align-items: center
+  color: white
+  font-family: "Roboto", "Arial", sans-serif
+  text-transform: uppercase
+  z-index: 100
+  background: $color_main
+  ul
+    display: flex
+    justify-content: space-around
+    width: 50%
+
+
+
+.main_page1
+  display: flex
+  justify-content: space-around
+
+  article
+    width: 50%
+    color: white
+    text-align: center
+
+    img
+      width: 100%
+      position: sticky
+      top: 0
+
+    h1
+      font-size: 50px
+
+    h2
+      font-size: 14px
+      margin: 100px 0 50px
+      letter-spacing: 2px
+
+    &:first-child
+      margin-top: 400px
+
+    hr
+      width: 50%
+
+    article
+      text-align: center
+      margin: 400px auto 0
+
+      p
+        margin: 100px 0
+
+      h3
+        font-size: 30px
+
+      img
+        height: 400px
+        object-fit: cover
+
+.main_page2
+  color: white
+  width: 90%
+  margin: 200px auto 0
+  display: flex
+  justify-content: space-between
+  font-family: "Roboto", "Arial", sans-serif
+
+  img
+    width: 40%
+
+  h1
+    font-size: 50px
+
+  h2
+    font-size: 14px
+    margin: 100px 0 50px
+    letter-spacing: 2px
+
+  p
+    margin: 40px 0
+
+  div
+    a
+      letter-spacing: 2px
+      border-bottom: white 1px solid
+
+
+.main_page3
+  color: white
+  width: 90%
+  margin: 200px auto 0
+  display: flex
+  justify-content: space-between
+  font-family: "Roboto", "Arial", sans-serif
+
+  img
+    width: 40%
+
+  p
+    margin: 200px 0 0
+    font-size: 30px
+
+.main_page4
+  width: 100%
+  padding: 100px 5%
+  background: #9c421f
+  color: #fff
+  margin: 100px auto 0
+  display: flex
+  justify-content: space-between
+  font-family: "Roboto","Arial",sans-serif
+
+  div
+    width: 50%
+
+  img
+    width: 40%
+
+  h1
+    font-size: 50px
+    margin: 100px 0
+    text-align: center
+
+  p
+    margin: 40px 0
+    width: 20%
+    text-align: center
+
+.main_page5
+  color: white
+  width: 90%
+  margin: 200px auto 0
+  display: flex
+  justify-content: space-between
+  font-family: "Roboto", "Arial", sans-serif
+
+  img
+    width: 40%
+
+  h1
+    font-size: 50px
+    margin: 100px
+    text-align: center
+
+  h2
+    font-size: 14px
+    margin: 100px 0 50px
+    letter-spacing: 2px
+
+  p
+    margin: 40px 0
+
+  div
+    width: 50%
+
+.back
+  width: 100%
+  height: 100vh
+  background: url("../img/diploma.webp") no-repeat
+  background-attachment: fixed
+  background-size: cover
+  margin: 100px 0
+
+.main_page6
+  color: white
+  width: 90%
+  margin: 200px auto 200px
+  justify-content: space-between
+  font-family: "Roboto", "Arial", sans-serif
+
+  h1
+    font-size: 50px
+
+  h2
+    font-size: 14px
+    margin: 100px 0 50px
+    letter-spacing: 2px
+    text-align: center
+
+  h3
+    font-size: 30px
+    text-align: center
+    width: 40%
+    margin: 0 auto
+
+  label
+    display: flex
+    margin: 100px 0
+    justify-content: center
+
+    input
+      background: none
+      border: white 1px solid
+      outline: none
+      padding: 7px 10px
+      margin: 0 10px
+      color: white
+
+    ::placeholder
+      color: white
+
+  p
+    margin: 40px 0
+
+footer
+  background: #FFD36B
+  padding: 40px 5vw
+  display: flex
+  justify-content: space-between
+  box-sizing: border-box
+
+  img
+    border-right: 2px solid white
+    padding-right: 40px
+    width: 200px
+
+  article
+    display: flex
+
+    h1
+      padding: 0 0 20px
+
+    h2
+      padding: 10px 0
+
+    section
+      padding: 0 10px
+      display: flex
+      flex-direction: column
+
+      a
+        color: black
+        margin: 10px 0
+
+      p
+        letter-spacing: 2px
+        padding-top: 40px
