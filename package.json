@@ -1,0 +1,27 @@
+{
+  "name": "cpuniverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SashokNaSteroidah/CPUniverse.git"
+  },
+  "author": "@SashokNaSteroidah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SashokNaSteroidah/CPUniverse/issues"
+  },
+  "homepage": "https://github.com/SashokNaSteroidah/CPUniverse#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
