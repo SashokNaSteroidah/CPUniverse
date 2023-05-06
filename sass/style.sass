@@ -343,6 +343,10 @@ footer
         height: 400px
         object-fit: cover
 
+.input_bas
+  display: flex
+  flex-direction: column
+
 .bas_page1
   display: flex
   justify-content: space-around
@@ -353,21 +357,17 @@ footer
     text-align: center
     margin-top: 350px
 
-    label
-      display: flex
-      flex-direction: column
+    input
+      width: 30%
+      margin: 20px 0
+      background: none
+      border: white 1px solid
+      outline: none
+      padding: 10px 10px
+      color: white
 
-      input
-        width: 30%
-        margin: 20px 0
-        background: none
-        border: white 1px solid
-        outline: none
-        padding: 10px 10px
-        color: white
-
-      ::placeholder
-        color: white
+    ::placeholder
+      color: white
 
     h1
       font-size: 50px
@@ -401,16 +401,35 @@ footer
 
 .item
   background: #1B1B1B
-  display: flex
+  display: grid
+  grid-template-columns: 13vw 10vw 10vw 10vw 10vw
+  grid-row-gap: 10px
   align-items: center
-  justify-content: space-between
+  //justify-content: space-between
   padding: 0 20px
   box-sizing: border-box
   margin-right: 50px
+  margin-bottom: 50px
   height: 150px
+  word-break: break-word
+
+  label
+    display: flex
+    align-items: center
+
   img
-    width: 10vw
-    transform: translateY(20px)
+    width: 6vw
+    //transform: translateY(20px)
+
+
+#count_items_add1
+  margin: 0 20px
+
+.but_num
+  border-radius: 50%
+  padding: 10px 0 !important
+  width: 20% !important
+  cursor: pointer
 
 .catalog_page1
   display: flex
@@ -464,14 +483,12 @@ footer
   margin-top: 200px
 
   article
-    //width: 20%
     color: white
     text-align: center
 
     div
       background: #1B1B1B
       padding: 50px
-
 
     h1
       font-size: 26px

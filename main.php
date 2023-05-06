@@ -35,14 +35,14 @@
     </section>
 
     <section class="main_page3">
-        <img src="img/4.jpg" alt="">
+        <img src="img/komputery_optom.jpg" alt="">
         <div>
             <p>Не забываем, что лучшее <br> не всегда значит дорого</p>
         </div>
     </section>
 
     <section class="main_page4">
-        <img src="img/4.jpg" alt="">
+        <img src="img/pc-recommendations-ugc-pic-03.ywj4ff.webp" alt="">
         <div>
             <h1>Быстрая доставка</h1>
             <span>Мы понимаем, как важно время и насколько не хочется порой что-то ждать, поэтому мы специльно каждый день гоняем лысых (наших курьеров), чтобы вы могли получить желаемое быстрее </span>
@@ -50,7 +50,7 @@
     </section>
 
     <section class="main_page5">
-        <img src="img/4.jpg" alt="">
+        <img src="img/images.jpg" alt="">
         <div>
             <h1>Даем скидки всем</h1>
             <span>Хорошие комплектующие не каждому могут быть по карману, поэтому мы специально делаем нашем покупателям скидки, так и для всех, так и персональные</span>
